@@ -1,0 +1,20 @@
+open dl ops Hs then create virtual environment
+steps to create venv :->
+
+uv init vinipro
+cd vinipro
+uv venv
+ .venv\Scripts\activate
+
+then we enter in the virtual environment and make file
+
+we create :-> requirements.txt
+
+and run by the -->  uv add -r requirements.txt --dev
+and then dowload all the packages in the time.
+
+go in this file :-> 
+
+==>  src -> cnnClassifier -> constant -> __init__.py
+==>  src -> cnnClassifier -> __init__.py
+
