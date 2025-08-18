@@ -18,3 +18,20 @@ go in this file :->
 ==>  src -> cnnClassifier -> constant -> __init__.py
 ==>  src -> cnnClassifier -> __init__.py
 
+go to [main.py] file and type what u want to print
+run main.py file and creating the log folder where i can see what was goin on in that pipeline
+
+
+after we fetch the data of chicken-fecal-images from the github profile of saraubh Sir and paste in the vinipro
+
+update the config.yaml
+
+adding this file to github 
+steps :->
+1. git init
+2. git add .
+3. git commit -m "added"
+
+4. git branch -M main
+5. git remote add origin https://github.com/hardik1328/DL-OPS.git
+6. git push -u origin main
