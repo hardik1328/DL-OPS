@@ -1,8 +1,7 @@
-from src.cnnclassifier import logger
+import os
 
-# logger.info("Welcome to my personal log")
-
-
+# disable oneDNN/MKL optimizations that may fail on low-memory systems
+os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 
 from src.cnnclassifier import logger
 from src.cnnclassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
@@ -22,7 +21,7 @@ try:
     logger.info(f">>>>>> {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
     logger.exception(e)
-    raise e
+    raise e 
 
 
 
